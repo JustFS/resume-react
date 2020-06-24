@@ -1,7 +1,6 @@
 import React from 'react';
 
 const ProgressBar = (props) => {
-  console.log(props);
 
   return (
     <div className={props.className}>
@@ -12,7 +11,7 @@ const ProgressBar = (props) => {
         <span>1 an</span>
       </div>
       
-      <div>
+      <div className="flexLine">
         {
           props.languages.map((item) => {
             let xpYears = 1;

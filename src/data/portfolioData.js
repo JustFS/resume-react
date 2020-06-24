@@ -1,12 +1,13 @@
 export const portfolioData = [
   {
     id: 1,
-    name: 'lorem.fr',
+    name: 'Mon CV actuel',
     languages: ['javascript','react', 'sass'],
     languagesIcons: ['fab fa-react', 'fab fa-js', 'fab fa-sass'],
-    source: 'http://www.github.com',
-    info: "",
-    picture: './media/cv.JPG'
+    source: 'https://github.com/JustFS/resume-react',
+    info: "Ce CV, expliqué en vidéo.",
+    picture: './media/cv.JPG',
+    video: 'https://www.youtube.com/embed/pS0v5eY7W9k'
   },
   {
     id: 2,
@@ -14,7 +15,7 @@ export const portfolioData = [
     languages: ['javascript', 'sass'],
     languagesIcons: ['fab fa-js','fab fa-sass'],
     source: 'https://github.com/JustFS/JS-click-game',
-    info: "Petit 'click game' en pur Javascript",
+    info: "Petit 'click game' en pur Javascript.",
     picture: './media/projet-6.JPG',
     video: 'https://www.youtube.com/embed/U50RvnAIHhQ'
   },

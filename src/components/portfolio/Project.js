@@ -49,14 +49,13 @@ export default class componentName extends Component {
 
                 {
                   link && <div className="link">
-                    <a href={link} tagret="_blank">Lien vers le site</a>
+                    <a href={link} target="_blank" rel="noopener noreferrer">Lien vers le site</a>
                   </div>
                 }
 
-
                 {
                   video && <div className="video">
-                    <iframe title={name} width="480" height="250" src={video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <iframe title={name} src={video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                   </div>
                 }
           
