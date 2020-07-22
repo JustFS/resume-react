@@ -10,7 +10,7 @@ $color-2: #6C77F4;
 $color-3: rgb(99, 164, 233);
 $color-4: #4FEDD2;
 $color-5: #36D0EA;
-$white: #ddd;
+$white: rgb(248, 248, 248);
 $black: #333;
 
 $borderRadius: 25px;
@@ -32,6 +32,7 @@ body {
   max-width: 1200px;
   font-family: $font-1;
   color: $black;
+  background-color: $white;
 }
 button {
   cursor: pointer;

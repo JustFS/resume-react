@@ -28,7 +28,9 @@ export default class componentName extends Component {
           )}
         </div>
         <h3>{name}</h3>
-        <img src={picture} onClick={this.handleInfo} alt=""/>
+        <div className="projectImg">
+          <img src={picture} onClick={this.handleInfo} alt=""/>
+        </div>
         <span className="infos" onClick={this.handleInfo}>
           <i className="fas fa-plus-circle"></i>
         </span>

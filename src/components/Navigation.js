@@ -45,7 +45,7 @@ const Navigation = () => {
       <div className="socialNetwork">
         <ul>
           <li>
-            <a href="http://www.linked.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a>
+            <a href="https://www.youtube.com/channel/UCHGLV13U7YRbjrKpqfbtyYg/videos" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a>
           </li>
           <li>
             <a href="https://github.com/JustFS" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>

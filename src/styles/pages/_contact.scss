@@ -169,6 +169,16 @@
     }
   }
 }
+@media screen and (max-width: 850px){
+  .contactContent {
+    span {
+      font-size: .9rem !important;
+    }
+    h4 {
+      font-size: .9rem;
+    }
+  }
+}
 @media screen and (max-width: 500px){
   .contactContent {
     .contactBox {

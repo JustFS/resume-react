@@ -39,9 +39,13 @@
 
       .languagesDisplay {
         grid-area: L;
+        margin-bottom: 1rem;
       }
       .frameworkDisplay {
         grid-area: F;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
       }
       .flexLine {
         display: flex;
@@ -109,7 +113,7 @@
       margin: 0 0 .5rem .5rem;
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 10% 1fr 1fr 1fr;
+      grid-template-rows: 11% 1fr 1fr 1fr;
       grid-template-areas: 
         "1"
         "2"
@@ -125,11 +129,12 @@
       }
       h5 {
         color: $color-5;
-        padding: 0.5rem 0 0.5rem 1rem;
+        padding: 0.05rem 0 0.1rem 1rem;
       }
       p {
         text-align: justify;
         padding: 0 1rem;
+        font-size: .9rem;
       }
       .exp-1 {
         grid-area: 2;
@@ -139,10 +144,6 @@
       }
       .exp-3 {
         grid-area: 4;
-
-        h4 {
-          margin-bottom: 1rem;
-        }
       }
     }
     .otherSkills {
@@ -151,10 +152,10 @@
 
       .list {
         display: flex;
-        width: 80%;
+        width: 100%;
         height: 100%;
         margin: 0 auto;
-        justify-content: space-between;
+        justify-content: space-around;
 
         ul {
           height: 80%;
@@ -162,17 +163,18 @@
 
           i {
             color: $color-5;
+            margin-right: .6rem;
           }
         }
       }
     }
     .hobbies {
       grid-area: H;
-      padding-left: 1.5rem;
 
       ul {
         height: 80%;
         display: grid;
+        padding-left: 2rem;
 
         li {
           i {
@@ -181,7 +183,7 @@
           }
           span {
             position: absolute;
-            transform: translateX(2.2rem);
+            transform: translate(37px, -4px);
           }
         }
       }
